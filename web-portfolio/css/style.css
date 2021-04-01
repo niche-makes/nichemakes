@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+body {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+/*This section as styled by SkillCrush left my img too big. used "no-repeat" and that works*/
+header {
+    background: url('../img/full-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+header h1 {
+    color: #bbc085;
+    font-family: 'Lora', serif; 
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*is the width in h2 below necessary?*/
+header h2 {
+    /* width: 1000px; */
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+/***** About Section *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif; 
+    font-size: 36px;
+    padding-left: 50px;
+}
+ 
+#about p {
+    color: #7f7f7f;
+    font-size:21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** Work Section *****/
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    /* I changed the padding from 50px to 38 to make it match. Not sure why it's not matching up to their specs. */
+    padding: 0 38px;
+}
+
+/****** Contact Section *****/
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+/*should I say "bold" or "700" or "auto" for font-weight, since its default seems to be 700?*/
+#contact #socialmedia-header {
+    font-size: 29px;
+    font-weight: auto;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
